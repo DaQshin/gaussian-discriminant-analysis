@@ -43,7 +43,7 @@ $$
 The predicted class is:
 
 $$
-\hat{y} = \arg\max_{y \in \{0, 1\}} \; P(x \mid y) P(y)
+\hat{y} = \arg\max_{y \in \{0, 1\}} \ P(x \mid y) P(y)
 $$
 
 Because $P(x \mid y)$ is Gaussian, this results in a **linear decision boundary** if $\Sigma$ is shared, and a **quadratic boundary** if each class has its own $\Sigma_y$.
