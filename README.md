@@ -8,7 +8,7 @@ GDA assumes that the features \( x \in \mathbb{R}^n \) conditioned on the class 
 
 ## Model Assumptions
 
-1. \( y \sim \text{Bernoulli}(\phi) \)
+1. $\( y \sim \text{Bernoulli}(\phi) \)$
 2. \( x \mid y = 0 \sim \mathcal{N}(\mu_0, \Sigma) \)
 3. \( x \mid y = 1 \sim \mathcal{N}(\mu_1, \Sigma) \)
 
